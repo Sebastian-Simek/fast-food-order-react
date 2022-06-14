@@ -8,7 +8,9 @@ function App() {
   const [sideId, setSideId] = useState(1);
   const [drinkId, setDrinkId] = useState(1);
   const [orderName, setOrderName] = useState('Your Order Here');
+  const [instructionForm, setInstructionForm] = useState('');
   const [instructions, setInstructions] = useState([]);
+
 
   return (
     <div className="App">
@@ -21,6 +23,9 @@ function App() {
         setOrderName={setOrderName}
         setDrinkId={setDrinkId}
         setInstructions={setInstructions}
+        setInstructionForm={setInstructionForm}
+        instructionForm={instructionForm}
+        instructions={instructions}
       />
       <OrderDisplay 
         foodId={foodId}
