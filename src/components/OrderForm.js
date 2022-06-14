@@ -1,7 +1,7 @@
 import DrinkDropdown from './DrinkDropdown';
 import FoodDropdown from './FoodDropdown';
 import Instructions from './Instructions';
-import OrderName from './OrderName';
+import OrderName from './GetOrderName';
 import SideDropdown from './SideDropdown';
 
 export default function OrderForm({ 
