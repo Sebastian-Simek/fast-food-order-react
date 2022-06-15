@@ -11,14 +11,11 @@ function App() {
   const [instructionForm, setInstructionForm] = useState('');
   const [instructions, setInstructions] = useState([]);
 
-  console.log('instruction form', instructionForm);
-  console.log('instructions', instructions);
-
 
   return (
     <div className="App">
       <header>
-        Welcome to the Hamburger Store!
+        Welcome to the Hamburger Store!!
       </header>
       <OrderForm 
         setFoodId={setFoodId}
