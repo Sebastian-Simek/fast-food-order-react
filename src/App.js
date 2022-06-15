@@ -7,9 +7,12 @@ function App() {
   const [foodId, setFoodId] = useState(1);
   const [sideId, setSideId] = useState(1);
   const [drinkId, setDrinkId] = useState(1);
-  const [orderName, setOrderName] = useState('Your Order Here');
+  const [orderName, setOrderName] = useState('');
   const [instructionForm, setInstructionForm] = useState('');
   const [instructions, setInstructions] = useState([]);
+
+  console.log('instruction form', instructionForm);
+  console.log('instructions', instructions);
 
 
   return (
@@ -34,6 +37,9 @@ function App() {
         orderName={orderName}
         instructions={instructions}
       />
+      <footer>
+        Sebastian Simek 2022
+      </footer>
     </div>
   );
 }

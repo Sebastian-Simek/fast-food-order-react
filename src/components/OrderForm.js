@@ -15,7 +15,7 @@ export default function OrderForm({
   instructions
 }) {
   return (
-    <div>
+    <div className='user-inputs'>
       <FoodDropdown setFoodId={setFoodId}/>
       <DrinkDropdown setDrinkId={setDrinkId} />
       <SideDropdown setSideId={setSideId}/>
