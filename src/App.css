@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
 
 .App-logo {
@@ -35,4 +36,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  background-image: url(./fat-mac.png);
+}
+
+header {
+  padding: 20px;
+  font-size: x-large;
+}
+
+.user-inputs{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.display-name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  margin: 10px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
 }
