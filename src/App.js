@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        Welcome to the Hamburger Store!
+        Welcome to the Hamburger Store!!
       </header>
       <OrderForm 
         setFoodId={setFoodId}
